@@ -1,3 +1,5 @@
+$(document).ready(function($){
+
   var animating = false,
     firstLoad = false;
   
@@ -71,3 +73,5 @@
   function transitionsSupported() {
     return $('html').hasClass('csstransitions');
   }
+
+  });
