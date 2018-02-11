@@ -89,6 +89,7 @@ body{
 
 .hero__inner-container{
 	margin-top: -85px;
+	max-width: 768rem;
 }
 
 .hero__text-container{
@@ -97,7 +98,7 @@ body{
 
 .hero__text-container h2{
 	font-family: helvetica, sans-serif;
-	font-size: 50px;
+	font-size: 42px;
 	font-weight: 700;
 	color: white;
 	margin-bottom: 50px;
@@ -106,7 +107,7 @@ body{
 .hero__text-container p{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	font-size: 48px;
+	font-size: 40px;
 	line-height: 1.4;
 	max-width: 950px;
 }
