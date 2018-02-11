@@ -61,6 +61,54 @@ body{
 	overflow: hidden;
 }
 
+
+
+/* Loading Styles */
+
+body::after, body::before {
+  /* these are the 2 half blocks which cover the content once the animation is triggered */
+  height: 50vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+}
+body::before {
+  top: 0;
+  transform: translateY(-100%);
+}
+body::after {
+  bottom: 0;
+  transform: translateY(100%);
+}
+body.page-is-changing::after, body.page-is-changing::before {
+  transform: translateY(0);
+}
+
+.cd-loading-bar {
+  /* this is the loading bar - visible while switching from one page to the following one */
+  position: fixed;
+  height: 2px;
+  width: 90%;
+}
+.cd-loading-bar::before {
+  /* this is the progress bar inside the loading bar */
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+.page-is-changing .cd-loading-bar::before {
+  transform: scaleX(1);
+}
+
+/* End of Loading Styles */
+
+
+
+
 .container{
 	height: 100%;
 	background-color: #e62d13;
@@ -68,9 +116,35 @@ body{
 	background-size: cover;
 }
 
+.nav{
+	background: reb
+/*	padding-left: 4%;
+	padding-top: 16px;*/
+}
+
+.nav__items{
+	width: auto;
+	/*display: inline-block;*/
+	position: absolute;
+	right: 30px;
+	top: 45px;
+}
+
+li a{
+	font-family: helvetica;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1px;
+	opacity: 0.6;
+	font-size: 14px;
+	text-decoration: none;
+}
+
 .nav-image{
-	margin-left: 4%;
-	padding-top: 16px;
+	/*display: inline-block;*/
+	padding-top: 20px;
+    padding-left: 30px;
 }
 
 .nav-image img{
