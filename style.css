@@ -264,7 +264,7 @@ Patterns - reusable parts of our design
 .no-touch .cd-btn:hover {
   background-color: #323c50;
 }
-.cd-about .cd-btn {
+.cd-about-us .cd-btn {
   background-color: #4089a6;
 }
 
@@ -628,19 +628,19 @@ main .cd-main-content.cd-index::before {
   background-image: -webkit-linear-gradient(top, #4089a6, rgba(64, 137, 166, 0));
   background-image: linear-gradient(to bottom,#4089a6, rgba(64, 137, 166, 0));
 }
-main .cd-main-content.cd-about {
+main .cd-main-content.cd-about-us {
   /* .cd-main-content basic style - about page */
   background-color: #283040;
 }
-main .cd-main-content.cd-about > div {
+main .cd-main-content.cd-about-us > div {
   padding-top: 50px;
 }
-main .cd-main-content.cd-about::after {
+main .cd-main-content.cd-about-us::after {
   background-color: rgba(40, 48, 64, 0);
   background-image: -webkit-linear-gradient(bottom, #283040, rgba(40, 48, 64, 0));
   background-image: linear-gradient(to top,#283040, rgba(40, 48, 64, 0));
 }
-main .cd-main-content.cd-about::before {
+main .cd-main-content.cd-about-us::before {
   background-color: rgba(40, 48, 64, 0);
   background-image: -webkit-linear-gradient(top, #283040, rgba(40, 48, 64, 0));
   background-image: linear-gradient(to bottom,#283040, rgba(40, 48, 64, 0));
@@ -694,7 +694,7 @@ main p {
   -moz-transition: opacity 0.4s 0.4s, visibility 0s 0.8s;
   transition: opacity 0.4s 0.4s, visibility 0s 0.8s;
 }
-.cd-about .cd-cover-layer {
+.cd-about-us .cd-cover-layer {
   background-color: #283040;
 }
 .page-is-changing .cd-cover-layer {
@@ -738,10 +738,10 @@ main p {
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-.cd-about .cd-loading-bar {
+.cd-about-us .cd-loading-bar {
   background-color: #283040;
 }
-.cd-about .cd-loading-bar::before {
+.cd-about-us .cd-loading-bar::before {
   background-color: #4089a6;
 }
 .cd-loading-bar::before {
