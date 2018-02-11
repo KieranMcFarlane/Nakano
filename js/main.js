@@ -52,7 +52,7 @@ $(document).ready(function($){
       var delay = ( transitionsSupported() ) ? 1200 : 0;
       setTimeout(function(){
         //wait for the end of the transition on the loading bar before revealing the new content
-        ( section.hasClass('cd-about') ) ? $('body').addClass('cd-about') : $('body').removeClass('cd-about');
+        ( section.hasClass('cd-about-us') ) ? $('body').addClass('cd-about-us') : $('body').removeClass('cd-about-us');
         $('body').removeClass('page-is-changing');
         $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
           animating = false;
