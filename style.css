@@ -106,6 +106,7 @@ li a{
 	/*display: inline-block;*/
 	padding-top: 20px;
     padding-left: 30px;
+    padding-bottom: 24px;
 }
 
 .nav-image img{
@@ -151,4 +152,87 @@ p{
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 }
+
+/** Contact Us **/
+
+.contact-us__container .hero__inner-container{
+	margin-top: 0;
+    max-width: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-us__container .hero__inner-container--left{
+	width: 30%;
+	background-color: #e62d13;
+}
+.contact-us__container .hero__inner-container--right{
+	/*background-color: #e62d13;*/
+	width: 70%;
+	background-image: url('images/big-wave.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.contact-us__container .contact-details{
+	background-color: white;
+	max-width: 635px;
+	padding-top: 47px;
+	padding-left: 143px;
+	padding-right: 143px;
+	padding-bottom: 60px;
+	text-align: center;
+	position: relative;
+	left: -15.0714285714%;
+	top: 70px;
+}
+
+.contact-us__container .contact-details h2{
+	font-size: 36px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 1.36;
+	color: black;
+	margin-bottom: 47px;
+}
+
+.contact-us__container .contact-details h3{
+	font-size: 28px;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+	padding-bottom: 10px;
+	color: black;
+}
+
+.contact-us__container .contact-details p {
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: black;
+	line-height: 1.3571428571;
+	margin-bottom: 46px;
+}
+
+.contact-us__container .contact-details p:last-child {
+	margin-bottom: 0;
+}
+
+.hero-banner-container{
+	background-color: white;
+	text-align: center;
+}
+
+.hero-banner-container h1{
+	font-size: 48px;
+	letter-spacing: 1.2px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding-top: 5vh;
+    padding-bottom: 5.2vh;
+}
+
+
 
